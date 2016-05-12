@@ -5,12 +5,12 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Boris Schauer",
+      "name": "analog multimedia",
       "email": "schauer@analog.de"
     }
   ],
   "version": "0.1.0",
   "require": {
-    "typo3/cms": ">=7.6.0,<8.0"
+    "typo3/cms": ">=6.2.0,<8.0"
   }
 }
