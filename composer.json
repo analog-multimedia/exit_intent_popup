@@ -1,13 +1,16 @@
 {
-    "name": "analog/exit_intent_popup",
-    "description": "Display an popup on exit intent",
-    "type": "typo3-cms-extension",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Boris Schauer",
-            "email": "schauer@analog.de"
-        }
-    ],
-    "require": {}
+  "name": "analog/exit_intent_popup",
+  "description": "Display an popup on exit intent",
+  "type": "typo3-cms-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Boris Schauer",
+      "email": "schauer@analog.de"
+    }
+  ],
+  "version": "0.1.0",
+  "require": {
+    "typo3/cms": ">=7.6.0,<8.0"
+  }
 }
