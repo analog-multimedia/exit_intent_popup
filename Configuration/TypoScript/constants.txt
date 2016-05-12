@@ -1,0 +1,22 @@
+# customsubcategory=100=Content ID to Render
+
+# cat=exit_intent_popup: Content/100/100 type=string; label=Cotent UID: UID of the Content Element to show in the Popup
+exit_intent-uid = 1
+
+
+# customsubcategory=110=exit_intent_popup
+
+# cat=exit_intent_popup: jQuery/110/100 type=string; label=width: The width of the popup. This can be overridden by adding your own CSS for the #bio_ep element.
+exit_intent-width = 500
+
+# cat=exit_intent_popup: jQuery/110/120 type=string; label=height: The height of the popup. This can be overridden by adding your own CSS for the #bio_ep element.
+exit_intent-height = 500
+
+# cat=exit_intent_popup: jQuery/110/130 type=string; label=delay: The time, in seconds, until the popup activates and begins watching for exit intent. If showOnDelay is set to true, this will be the time until the popup shows.
+exit_intent-delay = 5
+
+# cat=exit_intent_popup: jQuery/110/140 type=boolean; label=showOnDelay: If true, the popup will show after the delay option time. If false, popup will show when a visitor moves their cursor above the document window, showing exit intent.
+exit_intent-showOnDelay = false
+
+# cat=exit_intent_popup: jQuery/110/150 type=string; label=height: The number of days to set the cookie for. A cookie is used to track if the popup has already been shown to a specific visitor. If the popup has been shown, it will not show again until the cookie expires. A value of 0 will always show the popup.
+exit_intent-cookieExp = 30
