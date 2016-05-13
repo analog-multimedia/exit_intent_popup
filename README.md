@@ -8,6 +8,14 @@
 ##Frontent Example:
 ![image](https://snag.gy/p6qvUc.jpg)
 
-##Backend Settings:
+##How to Use:
+
+###Include TS:
+![image](https://snag.gy/TO8FpY.jpg)
+
+###Configuration in Constants:
 ![image](https://snag.gy/lxoDcn.jpg)
-![image](https://snag.gy/rcuNj1.jpg)
+![image](https://snag.gy/Sdmkhr.jpg)
+
+###Page Settings:
+![image](https://snag.gy/gdiMWZ.jpg)
