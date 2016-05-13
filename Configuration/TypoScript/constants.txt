@@ -1,6 +1,9 @@
 # customsubcategory=100=Content ID to Render
 
-# cat=exit_intent_popup: Content/100/100 type=string; label=Cotent UID: UID of the Content Element to show in the Popup
+# cat=exit_intent_popup: Content/100/90 type=string; label=Enable: Switch on/off Popup
+exit_intent-enable = 1
+
+# cat=exit_intent_popup: Content/100/100 type=string; label=Content UID: UID of the Content Element to show in the Popup
 exit_intent-uid = 1
 
 
@@ -18,5 +21,5 @@ exit_intent-delay = 5
 # cat=exit_intent_popup: jQuery/110/140 type=boolean; label=showOnDelay: If true, the popup will show after the delay option time. If false, popup will show when a visitor moves their cursor above the document window, showing exit intent.
 exit_intent-showOnDelay = false
 
-# cat=exit_intent_popup: jQuery/110/150 type=string; label=height: The number of days to set the cookie for. A cookie is used to track if the popup has already been shown to a specific visitor. If the popup has been shown, it will not show again until the cookie expires. A value of 0 will always show the popup.
+# cat=exit_intent_popup: jQuery/110/150 type=string; label=cookieExp: The number of days to set the cookie for. A cookie is used to track if the popup has already been shown to a specific visitor. If the popup has been shown, it will not show again until the cookie expires. A value of 0 will always show the popup.
 exit_intent-cookieExp = 30
