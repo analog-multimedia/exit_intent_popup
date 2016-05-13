@@ -1,17 +1,18 @@
-## ADD JS Files
-page.includeJSFooterlibs.exit_intent_popup_min = EXT:exit_intent_popup/Resources/Public/JavaScript/bioep.min.js
-page.includeCSS.exit_intent_popup_css = EXT:exit_intent_popup/Resources/Public/CSS/exit_intent_popup.css
+[page|exitintentpopup_switch = 1]
+    ## ADD JS Files
+    page.includeJSFooterlibs.exit_intent_popup_min = EXT:exit_intent_popup/Resources/Public/JavaScript/bioep.min.js
+    page.includeCSS.exit_intent_popup_css = EXT:exit_intent_popup/Resources/Public/CSS/exit_intent_popup.css
 
-## Render Content Element
-page.15011983 = RECORDS
-page.15011983 {
-    source = {$exit_intent-uid}
-    tables = tt_content
-    wrap =  <div id="bio_ep">|</div>
-}
+    ## Render Content Element
+    page.15011983 = RECORDS
+    page.15011983 {
+        source = {$exit_intent-uid}
+        tables = tt_content
+        wrap = <div id="bio_ep">|</div>
+    }
 
-page.jsFooterInline.10 = TEXT
-page.jsFooterInline.10.value (
+    page.jsFooterInline.10 = TEXT
+    page.jsFooterInline.10.value (
     $(document).ready(function () {
         bioEp.init({
             width: {$exit_intent-width},
@@ -21,4 +22,5 @@ page.jsFooterInline.10.value (
             showOnDelay: {$exit_intent-showOnDelay}
         });
     });
-)
+    )
+[global]
