@@ -1,0 +1,15 @@
+#bio_ep {
+    padding: 25px;
+}
+
+#bio_ep_close {
+    margin: 0 !important;
+    margin-top: -25px !important;
+    font-size: 0 !important;
+    background-image: url("../Icons/ic_close_black_24dp_2x.png");
+    background-size: cover;
+    width: 40px !important;
+    height: 40px !important;
+    left: 101% !important;
+    background-color: white !important;
+}

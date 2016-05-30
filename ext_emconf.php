@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'Display an popup on exit intent',
-    'description' => '',
+    'title' => 'Exit intent Popup',
+    'description' => 'Display an Popup on exit intent',
     'category' => 'templates',
     'version' => '0.1.0',
     'state' => 'beta',
