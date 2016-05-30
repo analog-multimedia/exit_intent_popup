@@ -11,8 +11,8 @@
         wrap = <div id="bio_ep">|</div>
     }
 
-    page.jsFooterInline.10 = TEXT
-    page.jsFooterInline.10.value (
+    page.jsFooterInline.15011983 = TEXT
+    page.jsFooterInline.15011983.value (
     $(document).ready(function () {
         bioEp.init({
             width: {$exit_intent-width},
