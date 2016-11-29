@@ -1,5 +1,5 @@
 # exit_intent_popup typo3 ext
-* Display an popup on exit intent (Typo3 Extension) 
+* Display a popup on exit intent (Typo3 Extension) 
 
 ## Based on:
 * https://github.com/beeker1121/exit-intent-popup
