@@ -1,5 +1,5 @@
 {
-  "name": "analog/exit_intent_popup",
+  "name": "analogde/exit_intent_popup",
   "description": "Display an popup on exit intent",
   "type": "typo3-cms-extension",
   "license": "MIT",
